@@ -1,0 +1,6 @@
+C:\Users\Administrator\source\repos\HIS_Patient_info\HIS_Patient_info\bin\Debug\HIS_Patient_info.dll.config
+C:\Users\Administrator\source\repos\HIS_Patient_info\HIS_Patient_info\bin\Debug\HIS_Patient_info.dll
+C:\Users\Administrator\source\repos\HIS_Patient_info\HIS_Patient_info\bin\Debug\HIS_Patient_info.pdb
+C:\Users\Administrator\source\repos\HIS_Patient_info\HIS_Patient_info\obj\Debug\HIS_Patient_info.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\HIS_Patient_info\HIS_Patient_info\obj\Debug\HIS_Patient_info.dll
+C:\Users\Administrator\source\repos\HIS_Patient_info\HIS_Patient_info\obj\Debug\HIS_Patient_info.pdb

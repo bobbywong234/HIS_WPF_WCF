@@ -1,0 +1,1 @@
+<%@ ServiceHost Service="HIS_Patient_info.Patient_data_Delete" %>

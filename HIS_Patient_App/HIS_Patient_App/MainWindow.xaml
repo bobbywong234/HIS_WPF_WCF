@@ -1,0 +1,86 @@
+﻿<Window x:Class="HIS_Patient_App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HIS_Patient_App"
+        mc:Ignorable="d"
+       Title="病人信息" WindowState="Maximized" >
+    <Grid Background="AliceBlue" Height="711" Width="1051">
+        <DataGrid Name="HIS_TABLE" AutoGenerateColumns="False" IsReadOnly="True" ColumnWidth="*" Margin="0,0,532,418">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="P_identity" Header="病人ID" Binding="{Binding PatientID}" />
+                <DataGridTextColumn x:Name="P_name" Header="病人姓名" Binding="{Binding PatientName}" />
+            </DataGrid.Columns>
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <DockPanel Background="White" >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <TextBlock x:Name="P_gender" Text="{Binding PatientGender}" Grid.Row ="1" Grid.Column="1" FontWeight="Bold"/>
+                            <TextBlock x:Name="P_address" Text="{Binding PatientAddress}" Grid.Row="2" Grid.Column="1" FontWeight="Bold"/>
+                            <TextBlock x:Name="P_phone" Text="{Binding PatientPhone}" Grid.Row="3" Grid.Column="1" FontWeight="Bold"/>
+                        </Grid>
+                    </DockPanel>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+        </DataGrid>
+        <Label x:Name="Page" Content="1" Width="50" Height="50" Margin="270,332,731,329"/>
+
+        <Grid x:Name="input_form" Visibility="Hidden" Margin="526,0,0,418">
+            <Label />
+            <Label Content="病人ID" Width="70" Height="50" Margin="193,33,262,210"/>
+            <TextBox x:Name="ID_Card" Width="240" Height="35" Margin="263,29,22,229"/>
+
+            <Label Content="病人姓名" Width="70" Height="50" Margin="193,74,262,169" />
+            <TextBox x:Name="Patient_name" Width="240" Height="35" Margin="263,71,22,187"/>
+
+            <Label Content="病人性别" Width="70" Height="50" Margin="193,114,262,129" />
+            <TextBox x:Name="Patient_gender" Width="240" Height="35" Margin="263,110,22,148"/>
+            
+            <Label Content="病人地址" Width="70" Height="50" Margin="193,154,262,89" />
+            <TextBox x:Name="Patient_address" Width="240" Height="35" Margin="263,149,22,109"/>
+
+            <Label Content="病人电话" Width="70" Height="50" Margin="193,193,262,50" />
+            <TextBox x:Name="Patient_phone" Width="240" Height="35" Margin="263,189,22,69"/>
+        </Grid>
+        
+        <Button x:Name="Next" 
+                    Click="NextPage_Click" ClickMode="Press" Margin="295,320,656,341" Height="50" Width="100">
+            下一页
+        </Button>
+        <Button x:Name="Previous" 
+                    Click="PreviousPage_Click" ClickMode="Press" Margin="160,320,791,341" Height="50" Width="100">
+            上一页
+        </Button>
+        <Button x:Name="P_patient_modify" Width="120" Height="60" Margin="10,383,921,268" Click="M_patient_modify_Click" ClickMode="Press" FontSize="15" RenderTransformOrigin="0.5,0.5" >
+            修改病人信息
+        </Button>
+        <Button x:Name="P_patient_add" Width="120" Height="60" Margin="10,314,921,337" Click="M_patient_add_Click" ClickMode="Press" FontSize="15">
+            添加病人信息
+        </Button>
+        <Button x:Name="P_patient_delete" Width="120" Height="60" Margin="10,464,921,187" Click="M_patient_delete_Click" ClickMode="Press" FontSize="15">
+            删除病人信息
+        </Button>
+        <Button Visibility="Hidden" x:Name="P_confirm_modification"  Margin="789,237,162,424" Click="M_confirm_modification_Click" ClickMode="Press" FontSize="15" Width="100" Height="50">
+            确认修改
+        </Button>
+        <Button Visibility="Hidden" x:Name="P_confirm_adding" Margin="789,237,162,424" Click="M_confirm_adding_Click" ClickMode="Press" FontSize="15" Width="100" Height="50">
+            确认添加
+        </Button>
+        <Button Click="Cacel_Add"  x:Name="Data_Add_Cancel" Visibility="Hidden" Width="100" Height="50" ClickMode="Press" FontSize="15" Margin="929,237,22,424">
+            取消添加
+        </Button>
+        <Button Click="Cancel_Modify" x:Name="Data_Modify_Cancel" Visibility="Hidden" Width="100" Height="50" ClickMode="Press" FontSize="15" Margin="929,237,22,424">
+            取消修改
+        </Button>
+    </Grid>
+</Window>

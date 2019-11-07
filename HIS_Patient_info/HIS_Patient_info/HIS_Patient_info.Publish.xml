@@ -1,0 +1,46 @@
+<publishData>
+  <publishTarget publishUrl="C:\Users\Administrator\source\repos\HIS_Patient_App\HIS_Patient_info\">
+    <file relUrl="HIS_Patient_info.Patient_data_Add.svc" publishTime="10/25/2019 16:12:00" />
+    <file relUrl="bin/HIS_Patient_info.dll.config" publishTime="10/10/2019 16:24:43" />
+    <file relUrl="HIS_Patient_info.Patient_data_Query.svc" publishTime="10/25/2019 16:12:00" />
+    <file relUrl="Web.config" publishTime="10/10/2019 16:24:43" />
+    <file relUrl="bin/HIS_Patient_info.dll" publishTime="10/25/2019 16:11:53" />
+    <file relUrl="HIS_Patient_info.Patient_data_Modify.svc" publishTime="10/25/2019 16:12:00" />
+    <file relUrl="HIS_Patient_info.Patient_data_Delete.svc" publishTime="10/25/2019 16:12:00" />
+    <file relUrl="bin/HIS_Patient_info.pdb" publishTime="10/25/2019 16:11:53" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Administrator\source\repos\HIS_Patient_WPF\HIS_Patient_info\">
+    <file relUrl="HIS_Patient_info.Patient_data_Add.svc" publishTime="10/11/2019 09:02:32" />
+    <file relUrl="bin/HIS_Patient_info.dll.config" publishTime="10/10/2019 16:24:43" />
+    <file relUrl="HIS_Patient_info.Patient_data_Query.svc" publishTime="10/11/2019 09:02:32" />
+    <file relUrl="Web.config" publishTime="10/10/2019 16:24:43" />
+    <file relUrl="bin/HIS_Patient_info.dll" publishTime="10/10/2019 18:33:34" />
+    <file relUrl="HIS_Patient_info.Patient_data_Modify.svc" publishTime="10/11/2019 09:02:32" />
+    <file relUrl="HIS_Patient_info.Patient_data_Delete.svc" publishTime="10/11/2019 09:02:32" />
+    <file relUrl="bin/HIS_Patient_info.pdb" publishTime="10/10/2019 18:33:34" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Administrator\source\repos\HIS_APP\HIS_Patient_info\">
+    <file relUrl="HIS_Patient_info.Patient_data_Add.svc" publishTime="10/10/2019 18:33:51" />
+    <file relUrl="bin/HIS_Patient_info.dll.config" publishTime="10/10/2019 16:24:43" />
+    <file relUrl="HIS_Patient_info.Patient_data_Query.svc" publishTime="10/10/2019 18:33:51" />
+    <file relUrl="Web.config" publishTime="10/10/2019 16:24:43" />
+    <file relUrl="bin/HIS_Patient_info.dll" publishTime="10/10/2019 18:33:34" />
+    <file relUrl="HIS_Patient_info.Patient_data_Modify.svc" publishTime="10/10/2019 18:33:51" />
+    <file relUrl="HIS_Patient_info.Patient_data_Delete.svc" publishTime="10/10/2019 18:33:51" />
+    <file relUrl="bin/HIS_Patient_info.pdb" publishTime="10/10/2019 18:33:34" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Administrator\source\repos\HIS_APP\">
+    <file relUrl="HIS_Patient_info.Patient_Service.svc" publishTime="09/27/2019 09:56:46" />
+    <file relUrl="bin/HIS_Patient_info.dll" publishTime="09/27/2019 09:56:30" />
+    <file relUrl="bin/HIS_Patient_info.dll.config" publishTime="09/26/2019 17:39:12" />
+    <file relUrl="Web.config" publishTime="09/26/2019 17:39:12" />
+    <file relUrl="bin/HIS_Patient_info.pdb" publishTime="09/27/2019 09:56:30" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Administrator\Desktop\Service_Collection\">
+    <file relUrl="HIS_Patient_info.Patient_Service.svc" publishTime="09/26/2019 17:48:24" />
+    <file relUrl="bin/HIS_Patient_info.dll" publishTime="09/26/2019 17:44:26" />
+    <file relUrl="bin/HIS_Patient_info.dll.config" publishTime="09/26/2019 17:39:12" />
+    <file relUrl="Web.config" publishTime="09/26/2019 17:39:12" />
+    <file relUrl="bin/HIS_Patient_info.pdb" publishTime="09/26/2019 17:44:26" />
+  </publishTarget>
+</publishData>
